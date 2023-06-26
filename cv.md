@@ -1,14 +1,16 @@
-Hi:) 
+# Hi! 
 
-My name is Maksim Pranko
+## He is called Maksim Pranko
 
-Contacts:
+### Contacts:
 
 ds - _dungeonmaster69 
 
 e-mail - tt-max@outlook.com 
 
-Simple brief about me: 
+---
+
+### Simple brief about me: 
 
 My main target is to improve my code skills and to be employed as a FrontEnd dev and to build my own way in IT sphere. 
 
@@ -18,29 +20,41 @@ After graduating from university and getting the qualification of a customs offi
 
 All my colleagues can characterize me as active, adaptable, determined, eager, flexible, energetic, friendly, industrious, intellectual and patient. From my point of view all these qualities can help me to be realized as software engeneer. 
 
-Skills: 
+---
+
+### Skills: 
 
 * Photoshop - just a little bit
 * HTML, CSS - low level skills from university
 * Styding JS, Git
 * Medium skill of PC setup, installation, hardware management
 
-Code sample: 
+---
+
+### Code sample: 
 
 soon will be sumplemented... 
 
-IT experience: 
+---
+
+### IT experience: 
 
 soon will be sumplemented... 
 
-Education: 
+---
+
+### Education: 
 
 - BNTU (customs officer)
 - The Rolling School (in progress)
 - English courses (done in 2017, B1)
 
-Languages level: 
+---
+
+### Languages level: 
 
 1. English - B1 INTERMEDIATE to B2 UPPER INTERMEDIATE, according to the guidelines set by the Common European Framework of Reference (CEFR)
 2. Russian/Belarussin - native
 3. Polish - basic
+
+---
