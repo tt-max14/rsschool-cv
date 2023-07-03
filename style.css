@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-body {
+body { /*установка выравнивания блков*/
     display: flex;
     flex-direction: column;
     justify-content: space-around;
