@@ -32,3 +32,55 @@ body {
     background-color: rgb(205, 205, 205);
 }
 
+.nav-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    position: relative;
+    padding: 5px 12px 5px 12px;
+    text-decoration: none;
+    line-height: 30px;
+    color: black;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+    background-color: #8182E5;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.main {
+    margin-bottom: auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section {
+    width: calc(50%-20px);
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 5px solid #ffffff;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border-bottom: thick double #ffffff;
+    border-radius: 10px;
+    margin-top: 20px;
+}
