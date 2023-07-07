@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 .html {
-    background-image: url(media/subtle-prism.svg);
+    background-image: url(assets/svg/subtle-prism.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -197,25 +197,25 @@ body {
 
 .section-li-cont-ds {
     list-style: none;
-    background: url(media/discord.svg) no-repeat;
+    background: url(assets/svg/discord.svg) no-repeat;
     padding-left: 30px;
 }
 
 .section-li-cont-gh {
     list-style: none;
-    background: url(media/github.png) no-repeat;
+    background: url(assets/img/github.png) no-repeat;
     padding-left: 30px;
 }
 
 .section-li-cont-mail {
     list-style: none;
-    background: url(media/почта.png) no-repeat;
+    background: url(assets/img/почта.png) no-repeat;
     padding-left: 30px;
 }
 
 .section-li-cont-tg {
     list-style: none;
-    background: url(media/телеграм.png) no-repeat;
+    background: url(assets/img/телеграм.png) no-repeat;
     padding-left: 30px;
 }
 
