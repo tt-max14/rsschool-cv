@@ -84,3 +84,200 @@ body {
     border-radius: 10px;
     margin-top: 20px;
 }
+
+.pre {
+    padding: 0;
+    margin: 0;
+    background: rgba(151, 151, 151, 0.527);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
+    border-radius: 10px;
+    padding: 15px 0px 15px 50px;
+}
+
+.section-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main-title {
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+    color: #fcfcfc;
+    font-size: 32px;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.section-future {
+    margin-top: 20px;
+    color: #fcfcfc;
+    line-height: 50px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.photo {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    float: right;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+.ul {
+    position: relative;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-left: 30px;
+}
+
+.footer {
+    background-color: #a8a8a8;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.git {
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 45px;
+}
+
+.rslink {
+    width: 140px;
+}
+
+.nav-li {
+    text-align: center;
+    height: 100%;
+}
+
+.p {
+    padding-bottom: 5px;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.gitlogo {
+    width: 32px;
+}
+
+.gitnl {
+    position: relative;
+    padding: 5px 12px 5px 12px;
+    text-decoration: none;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.section-li-cont-ds {
+    list-style: none;
+    background: url(media/discord.svg) no-repeat;
+    padding-left: 30px;
+}
+
+.section-li-cont-gh {
+    list-style: none;
+    background: url(media/github.png) no-repeat;
+    padding-left: 30px;
+}
+
+.section-li-cont-mail {
+    list-style: none;
+    background: url(media/почта.png) no-repeat;
+    padding-left: 30px;
+}
+
+.section-li-cont-tg {
+    list-style: none;
+    background: url(media/телеграм.png) no-repeat;
+    padding-left: 30px;
+}
+
+.li-img-star {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -6px;
+}
+
+.section-li {
+    box-sizing: border-box;
+    height: 30px;
+}
+
+.loader {
+    display: block;
+    --height-of-loader: 8px;
+    --loader-color: #ffffff;
+    width: 250px;
+    height: var(--height-of-loader);
+    border-radius: 30px;
+    background-color: rgba(0,0,0,0.2);
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 1.5px;
+  }
+
+  .loader::before {
+    content: "";
+    position: absolute;
+    background: var(--loader-color);
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-radius: 30px;
+    animation: moving 3s ease-in-out infinite;
+    ;
+  }
+
+  @keyframes moving {
+    50% {
+      width: 100%;
+    }
+
+    100% {
+      width: 0;
+      right: 0;
+      left: unset;
+    }
+  }
+
+  .cert {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+  }
+
+  .cert img {
+    width: 40%;
+    height: 40%;
+    padding-right: 10px;
+  }
